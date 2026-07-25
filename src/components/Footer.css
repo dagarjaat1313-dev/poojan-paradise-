@@ -1,0 +1,26 @@
+.footer{
+  background:#5b2c06;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+  margin-top:50px;
+}
+
+.footer h2{
+  color:#ffd700;
+}
+
+.footer-links{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  margin:20px 0;
+}
+
+.footer-links span{
+  cursor:pointer;
+}
+
+.copyright{
+  font-size:14px;
+}
