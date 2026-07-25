@@ -1,11 +1,13 @@
 import React from "react";
-import Products from "../data/products.js";
+import Products from "../data/products";
 import ProductCard from "../components/ProductCard";
+import "./Shop.css";
 
 export default function Shop() {
   return (
-    <div className="shop">
-      <h1>🪔 Poojan Paradise Shop</h1>
+    <section className="shop-page">
+      <h1>Our Premium Collection</h1>
+      <p>Authentic pooja essentials for every ritual</p>
 
       <div className="product-grid">
         {Products.map((product) => (
@@ -15,6 +17,6 @@ export default function Shop() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
