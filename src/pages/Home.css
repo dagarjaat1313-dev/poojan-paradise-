@@ -44,3 +44,35 @@ body{
   border-radius:30px;
   box-shadow:0 20px 50px rgba(139,94,52,0.25);
 }
+.hero{
+  background:linear-gradient(135deg,#fff8e7,#fff0d0);
+  border-radius:35px;
+}
+
+.brand-name{
+  color:#b91c1c;
+  letter-spacing:1px;
+  text-shadow:0 3px 10px rgba(185,28,28,0.15);
+}
+
+.primary-btn{
+  background:#b91c1c;
+}
+
+.primary-btn:hover{
+  background:#8f1515;
+}
+
+.secondary-btn{
+  color:#b91c1c;
+  border-color:#b91c1c;
+}
+
+.category-card{
+  border:1px solid #f3d28b;
+  color:#8b5e34;
+}
+
+.category-card:hover{
+  box-shadow:0 15px 30px rgba(180,120,40,0.2);
+}
