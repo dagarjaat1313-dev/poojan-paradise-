@@ -29,8 +29,7 @@ export default function Home() {
     alt="Pooja Thali Diya"
   />
 </div>
-          />
-        </div>
+         
       </section>
 
       <section className="categories">
