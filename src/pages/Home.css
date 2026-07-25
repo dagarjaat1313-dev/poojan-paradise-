@@ -28,4 +28,13 @@ body{
 
 .category-card:hover{
   background:#f6d58a;
+}.brand-name{
+  color:#b91c1c;
+  font-size:56px;
+  font-weight:700;
+}
+
+.tag{
+  background:#fff0d5;
+  color:#b45309;
 }
