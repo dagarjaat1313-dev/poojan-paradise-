@@ -1,0 +1,21 @@
+export default function Hero(){
+return(
+<section className="hero">
+<div className="container">
+
+<h1>
+Premium Pooja Essentials
+</h1>
+
+<p>
+Everything for your spiritual journey.
+</p>
+
+<button>
+Shop Now
+</button>
+
+</div>
+</section>
+)
+}
