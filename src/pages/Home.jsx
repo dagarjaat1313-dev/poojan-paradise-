@@ -6,9 +6,11 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="hero-content">
-          <span className="tag">🛕 Premium Pooja Essentials</span>
+          <span className="tag">✨ Premium Pooja Essentials</span>
 
-          <h1>Poojan Paradise</h1>
+<h1 className="brand-name">
+  Poojan Paradise
+</h1>
 
           <p>
             Pure, authentic and premium pooja samagri for every ritual and
