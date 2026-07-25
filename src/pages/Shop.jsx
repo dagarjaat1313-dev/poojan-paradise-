@@ -1,5 +1,5 @@
 import React from "react";
-import Products from "../data/Products";
+import Products from "../data/products.js";
 import ProductCard from "../components/ProductCard";
 
 export default function Shop() {
