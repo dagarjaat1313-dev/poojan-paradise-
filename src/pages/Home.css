@@ -76,3 +76,19 @@ body{
 .category-card:hover{
   box-shadow:0 15px 30px rgba(180,120,40,0.2);
 }
+.hero-image{
+  position:relative;
+}
+
+.hero-image img{
+  width:500px;
+  max-width:100%;
+  border-radius:35px;
+  object-fit:cover;
+  box-shadow:0 25px 60px rgba(185,28,28,0.18);
+  transition:0.4s;
+}
+
+.hero-image img:hover{
+  transform:scale(1.03);
+}
