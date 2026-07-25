@@ -24,9 +24,11 @@ export default function Home() {
         </div>
 
         <div className="hero-image">
-          <img
-            src="/images/hero.jpg"
-            alt="Pooja Samagri"
+  <img
+    src="https://images.unsplash.com/photo-1604608672516-7d3b7aef5f31"
+    alt="Pooja Thali Diya"
+  />
+</div>
           />
         </div>
       </section>
