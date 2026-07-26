@@ -1,25 +1,26 @@
-import React from "react";
 import "./ProductCard.css";
 
 export default function ProductCard({ product }) {
   return (
     <div className="product-card">
 
-      <div className="product-image">
-        <img 
-          src={product.image}
-          alt={product.name}
-        />
-      </div>
+      <span className="offer-badge">10% OFF</span>
+
+      <img
+        src={product.image}
+        alt={product.name}
+      />
 
       <h3>{product.name}</h3>
 
-      <p className="price">
-        ₹{product.price}
-      </p>
+      <div className="rating">
+        ⭐⭐⭐⭐⭐
+      </div>
 
-      <button className="cart-btn">
-        Add To Cart 🛒
+      <p className="price">₹{product.price}</p>
+
+      <button className="buy-btn">
+        🛒 Add to Cart
       </button>
 
     </div>
