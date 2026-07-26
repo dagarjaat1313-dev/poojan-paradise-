@@ -1,26 +1,21 @@
 .footer{
-  background:#5b2c06;
-  color:white;
-  text-align:center;
-  padding:40px 20px;
-  margin-top:50px;
+  background:#fff0d0;
+  padding:50px 30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+  border-top:1px solid #f1d28a;
 }
 
-.footer h2{
-  color:#ffd700;
+.footer-box h2{
+  color:#b91c1c;
 }
 
-.footer-links{
-  display:flex;
-  justify-content:center;
-  gap:25px;
-  margin:20px 0;
+.footer-box h3{
+  color:#8b5e34;
 }
 
-.footer-links span{
-  cursor:pointer;
-}
-
-.copyright{
-  font-size:14px;
+.footer-box p{
+  color:#6b4a2d;
+  line-height:1.8;
 }
