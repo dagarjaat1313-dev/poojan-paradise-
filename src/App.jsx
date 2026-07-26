@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -15,9 +16,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
-      <footer>
-        <div className="footer-content">
-          <div className="footer-section">
+      <Footer /> className="footer-section">
             <h3>🪔 Poojan Paradise</h3>
             <p>Your trusted source for authentic pooja items and spiritual essentials.</p>
           </div>
