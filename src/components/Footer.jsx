@@ -14,26 +14,26 @@ export default function Footer() {
 
       </div>
 
-
       <div className="footer-box">
+
         <h3>Quick Links</h3>
         <p>Home</p>
         <p>Shop</p>
         <p>Cart</p>
+
       </div>
 
-
       <div className="footer-box">
+
         <h3>Contact</h3>
         <p>📧 info@poojanparadise.com</p>
         <p>📍 India</p>
+
       </div>
 
-    </div>
-
-    <div className="footer-bottom">
-      © 2026 Poojan Paradise | Made with ❤️
-    </div>
+      <div className="footer-bottom">
+        © 2026 Poojan Paradise | Made with ❤️
+      </div>
 
     </footer>
   );
