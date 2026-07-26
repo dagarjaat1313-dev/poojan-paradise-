@@ -4,18 +4,44 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <header className="navbar">
+
       <div className="logo">
-        <span className="logo-icon">🪔</span>
-        <span className="logo-text">Poojan Paradise</span>
+
+        <img
+          src="/logo.png"
+          alt="Poojan Paradise Logo"
+        />
+
+        <h2>
+          <span className="hindi">पूजन</span>{" "}
+          <span className="english">Paradise</span>
+        </h2>
+
+      </div>
+
+      <div className="search-box">
+
+        <input
+          type="text"
+          placeholder="Search pooja products..."
+        />
+
       </div>
 
       <nav>
-        <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/shop">Shop</Link></li>
-          <li><Link to="/cart">Cart</Link></li>
-        </ul>
+
+        <Link to="/">Home</Link>
+
+        <Link to="/shop">Shop</Link>
+
+        <Link to="/about">About</Link>
+
+        <Link to="/contact">Contact</Link>
+
+        <Link to="/cart">🛒 Cart</Link>
+
       </nav>
+
     </header>
   );
 }
