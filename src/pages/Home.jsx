@@ -1,5 +1,5 @@
 import "./Home.css";
-
+import FeaturedProducts from "../components/FeaturedProducts";
 export default function Home() {
   return (
     <>
