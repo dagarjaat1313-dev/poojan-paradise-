@@ -1,16 +1,30 @@
-import "./Hero.css";
+<section className="hero">
 
-export default function Hero() {
-  return (
-    <section className="hero">
-      <div className="hero-content">
-        <h1>Welcome to Poojan Paradise 🪔</h1>
-        <p>Your one-stop destination for premium pooja items and spiritual essentials</p>
-        <div className="hero-buttons">
-          <a href="/shop" className="hero-btn primary">Shop Now</a>
-          <button className="hero-btn secondary">Learn More</button>
-        </div>
-      </div>
-    </section>
-  );
-}
+  <div className="hero-left">
+    <span className="hero-tag">
+      ✨ Premium Pooja Essentials
+    </span>
+
+    <h1>
+      <span className="red">Poojan Paradise</span>
+    </h1>
+
+    <p>
+      Premium pooja samagri crafted for every ritual,
+      festival and spiritual journey.
+    </p>
+
+    <div className="hero-buttons">
+      <button className="shop-btn">Shop Now</button>
+      <button className="explore-btn">Explore Collection</button>
+    </div>
+  </div>
+
+  <div className="hero-right">
+    <img
+      src="https://images.unsplash.com/photo-1604608672516-7d3b7aef5f31"
+      alt="Pooja Diya"
+    />
+  </div>
+
+</section>
