@@ -4,7 +4,6 @@ import "./Home.css";
 export default function Home() {
   return (
     <>
-      {/* Hero */}
       <section className="hero">
 
         <div className="hero-left">
@@ -14,22 +13,18 @@ export default function Home() {
           </span>
 
           <h1>
+            Welcome to <br />
             <span className="red">Poojan Paradise</span>
           </h1>
 
           <p>
-            Pure, authentic and premium pooja samagri for every ritual,
-            festival and spiritual journey.
+            Pure • Authentic • Divine <br />
+            Premium Pooja Samagri for every ritual and every festival.
           </p>
 
           <div className="hero-buttons">
-            <button className="shop-btn">
-              Shop Now
-            </button>
-
-            <button className="explore-btn">
-              Explore Collection
-            </button>
+            <button className="shop-btn">🛍 Shop Now</button>
+            <button className="explore-btn">✨ Explore</button>
           </div>
 
         </div>
@@ -42,56 +37,6 @@ export default function Home() {
         </div>
 
       </section>
-
-      {/* Categories */}
-
-      <section className="categories">
-
-        <h2>Popular Categories</h2>
-
-        <div className="category-grid">
-
-          <div className="category-card">🪔 Diyas</div>
-          <div className="category-card">🔥 Kapoor</div>
-          <div className="category-card">🌸 Dhoop</div>
-          <div className="category-card">🧴 Pooja Oil</div>
-          <div className="category-card">📿 Rudraksh</div>
-          <div className="category-card">🌼 Hawan Samagri</div>
-
-        </div>
-
-      </section>
-
-      {/* Best Seller */}
-
-      <section className="best-seller">
-
-        <h2>🔥 Best Selling Products</h2>
-
-        <div className="best-grid">
-
-          <div className="best-card">
-            <h3>Kapoor Bheem Seni</h3>
-            <p>₹199</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div className="best-card">
-            <h3>Pooja Ghee</h3>
-            <p>₹499</p>
-            <button>Buy Now</button>
-          </div>
-
-          <div className="best-card">
-            <h3>Rudraksh Mala</h3>
-            <p>₹599</p>
-            <button>Buy Now</button>
-          </div>
-
-        </div>
-
-      </section>
-
     </>
   );
 }
