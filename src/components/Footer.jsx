@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
@@ -6,11 +5,15 @@ export default function Footer() {
     <footer className="footer">
 
       <div className="footer-box">
-        <h2>Poojan Paradise</h2>
+
+        <h2>🪔 Poojan Paradise</h2>
         <p>
-          Premium pooja samagri for your daily rituals and festivals.
+          Premium pooja samagri for every ritual,
+          festival and spiritual journey.
         </p>
+
       </div>
+
 
       <div className="footer-box">
         <h3>Quick Links</h3>
@@ -19,18 +22,18 @@ export default function Footer() {
         <p>Cart</p>
       </div>
 
-      <div className="footer-box">
-        <h3>Payment</h3>
-        <p>💳 UPI</p>
-        <p>📱 PhonePe</p>
-        <p>🔒 Secure Payment</p>
-      </div>
 
       <div className="footer-box">
         <h3>Contact</h3>
-        <p>📞 +91 XXXXX XXXXX</p>
-        <p>✉️ info@poojanparadise.com</p>
+        <p>📧 info@poojanparadise.com</p>
+        <p>📍 India</p>
       </div>
+
+    </div>
+
+    <div className="footer-bottom">
+      © 2026 Poojan Paradise | Made with ❤️
+    </div>
 
     </footer>
   );
