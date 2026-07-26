@@ -3,18 +3,19 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
-
+    <header className="navbar">
       <div className="logo">
-        ❤️ Poojan Paradise
+        <span className="logo-icon">🪔</span>
+        <span className="logo-text">Poojan Paradise</span>
       </div>
 
-      <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/shop">Shop</Link></li>
-        <li><Link to="/cart">Cart 🛒</Link></li>
-      </ul>
-
-    </nav>
+      <nav>
+        <ul className="nav-links">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/shop">Shop</Link></li>
+          <li><Link to="/cart">Cart</Link></li>
+        </ul>
+      </nav>
+    </header>
   );
 }
