@@ -120,3 +120,17 @@ body{
   background:#fff0d0;
   box-shadow:0 15px 35px rgba(185,28,28,.15);
 }
+.hero-image{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.hero-image img{
+  width:520px;
+  height:520px;
+  object-fit:cover;
+  border-radius:35px;
+  border:8px solid #fff0d0;
+  box-shadow:0 25px 60px rgba(185,28,28,0.20);
+}
