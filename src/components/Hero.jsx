@@ -1,30 +1,108 @@
-<section className="hero">
+import React from "react";
+import "./Home.css";
 
-  <div className="hero-left">
-    <span className="hero-tag">
-      ✨ Premium Pooja Essentials
-    </span>
+export default function Home() {
+  return (
+    <>
 
-    <h1>
-      <span className="red">Poojan Paradise</span>
-    </h1>
+      <section className="hero">
 
-    <p>
-      Premium pooja samagri crafted for every ritual,
-      festival and spiritual journey.
-    </p>
+        <div className="hero-left">
 
-    <div className="hero-buttons">
-      <button className="shop-btn">Shop Now</button>
-      <button className="explore-btn">Explore Collection</button>
-    </div>
-  </div>
+          <span className="hero-tag">
+            ✨ Premium Pooja Essentials
+          </span>
 
-  <div className="hero-right">
-    <img
-      src="https://images.unsplash.com/photo-1604608672516-7d3b7aef5f31"
-      alt="Pooja Diya"
-    />
-  </div>
+          <h1>
+            Bring Divine Energy
+            <br />
+            <span className="red">
+              Poojan Paradise
+            </span>
+          </h1>
 
-</section>
+          <p>
+            Discover premium pooja samagri crafted with
+            purity, devotion and tradition for every ritual.
+          </p>
+
+          <div className="hero-buttons">
+
+            <button className="shop-btn">
+              🛍 Shop Now
+            </button>
+
+            <button className="explore-btn">
+              ✨ Explore Collection
+            </button>
+
+          </div>
+
+
+          <div className="trust-points">
+
+            <span>🪔 Pure Products</span>
+            <span>🌸 Premium Quality</span>
+            <span>🚚 Fast Delivery</span>
+
+          </div>
+
+        </div>
+
+
+        <div className="hero-right">
+
+          <div className="image-frame">
+
+            <img
+              src="/images/hero.jpg"
+              alt="Poojan Paradise"
+            />
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section className="categories">
+
+        <h2>
+          Popular Categories
+        </h2>
+
+
+        <div className="category-grid">
+
+          <div className="category-card">
+            🪔 Diyas
+          </div>
+
+          <div className="category-card">
+            🔥 Kapoor
+          </div>
+
+          <div className="category-card">
+            🌸 Dhoop
+          </div>
+
+          <div className="category-card">
+            🧴 Pooja Oil
+          </div>
+
+          <div className="category-card">
+            📿 Rudraksh
+          </div>
+
+          <div className="category-card">
+            🌼 Hawan Samagri
+          </div>
+
+        </div>
+
+      </section>
+
+    </>
+  );
+}
